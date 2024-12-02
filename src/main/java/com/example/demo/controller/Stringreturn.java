@@ -8,6 +8,7 @@ public class Stringreturn {
     @GetMapping("/")
     public String hello(){
         System.out.println("com");
+        System.out.println("ganja");
         return "hello";
     }
 }
