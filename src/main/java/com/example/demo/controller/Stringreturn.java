@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Stringreturn {
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String hello(){
         System.out.println("com");
         System.out.println("ganja");
